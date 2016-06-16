@@ -1,13 +1,10 @@
 ---
-layout: post
-tags: 
-  - releases
-published: true
 title: Time Flies
-date: "2015-09-30 10:00:00 -0400"
+date: 2015-09-30 14:00:00 Z
+tags:
+- releases
+layout: post
 ---
-
-
 
 An age old battle. How to muster end of day energy to log time. We know tracking and entering time can be painful, if not monotenuous. **We want to make that easier.**
 

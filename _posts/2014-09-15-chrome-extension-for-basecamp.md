@@ -1,6 +1,6 @@
 ---
-title:  "Introducing Roadmap H.U.D., bringing Roadmap into Basecamp"
-date:   2014-09-15 09:30:00
+title: Introducing Roadmap H.U.D., bringing Roadmap into Basecamp
+date: 2014-09-15 09:30:00 Z
 ---
 
 Roadmap is all about giving you the details to make your projects more effecient and effective.
