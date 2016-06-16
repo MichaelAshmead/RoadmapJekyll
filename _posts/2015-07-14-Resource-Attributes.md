@@ -1,11 +1,8 @@
 ---
-layout: post
 title: Resource Attributes Are Key
-date: 2015-07-14 04:00:00
-published: true
+date: 2015-07-14 04:00:00 Z
+layout: post
 ---
-
-
 
 Writing, coding, designing, or researching. Whatever our forte, we each bring something unique to a project.
 Whether you’re managing projects at a large organization or a small agency, finding the right person for the task is key to successful projects.
