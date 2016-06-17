@@ -1766,7 +1766,7 @@ category: Modules - Listing
 .post-content video,
 .post-content iframe {
   max-width: 100%;
-  height: auto; }
+  }
 
 .c-email-signup {
   background-color: #f7f7f5; }
