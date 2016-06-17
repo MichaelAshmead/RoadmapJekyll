@@ -1,8 +1,9 @@
 ---
-title: Privacy Policy
-permalink: "/privacy-policy/"
 layout: page
+title: Privacy Policy
+permalink: /privacy-policy/
 ---
+
 
 Thank you for your interest in Roadmap! We greatly value our customers and their trust. Herein is our Privacy Policy. Learn more about Roadmap and its commitment to the Safe Harbor Framework.
 

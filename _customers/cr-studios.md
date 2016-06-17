@@ -1,6 +1,6 @@
 ---
 title: Roadmap Increased BLVR's Productivity 26%
-callout: 
+callout:
 ---
 
 ## Roadmap Case Study - BLVR
