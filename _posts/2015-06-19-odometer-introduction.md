@@ -1,6 +1,6 @@
 ---
-title: "It’s Time to Talk"
-date: 2015-06-19 02:00:00
+title: It’s Time to Talk
+date: 2015-06-19 02:00:00 Z
 ---
 
 Time. Time management is the foundation of any efficient project. It’s how we determine how much effort to allot. It might even be the metric that determines how much we’re paid. 
