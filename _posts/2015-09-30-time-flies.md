@@ -1,19 +1,17 @@
 ---
 title: Time Flies
-date: {}
+date: 2015-09-30 14:00:00 Z
 tags:
-  - releases
+- releases
 layout: post
-published: true
 ---
 
 An age old battle. How to muster end of day energy to log time. We know tracking and entering time can be painful, if not monotenuous. **We want to make that easier.**
 
+
 Today, we’ve taken the _beta_ wraps off **[Odometer](//time.ppmroadmap.com)**, our companion time logger for Roadmap.
 
 [![Screenshot 2015-09-29 22.58.41.png]({{site.baseurl}}/images/media/Screenshot 2015-09-29 22.58.41.png)](//time.ppmroadmap.com)
-
-This is a test line.
 
 Odometer’s mobile optimized interface was purpose-built for logging time. Now you don’t need to navigate through Roadmap’s old interface. Instead, use Odometer!
 
