@@ -8,7 +8,6 @@ layout: post
 
 An age old battle. How to muster end of day energy to log time. We know tracking and entering time can be painful, if not monotenuous. **We want to make that easier.**
 
-
 Today, we’ve taken the _beta_ wraps off **[Odometer](//time.ppmroadmap.com)**, our companion time logger for Roadmap.
 
 [![Screenshot 2015-09-29 22.58.41.png]({{site.baseurl}}/images/media/Screenshot 2015-09-29 22.58.41.png)](//time.ppmroadmap.com)
