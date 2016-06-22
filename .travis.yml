@@ -1,0 +1,34 @@
+language: ruby
+rvm:
+- 2.1.0
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - secure: Yk3lxBxcAskQ4hRp3WtVFc5uTjQhWypsaRLLtOFgA5f+f5mZQiVp74HxECYW4qT8rzoQmKWa59uAW4Oks2z5z8QVAZTYNMqUitSLrjXsXHF9it95J8iaZn4NAzudcN9+vRqVi3QB/v0BpvAoIrTUExvUPQjcMDLkkPby7mxKKig=
+  - secure: cvfopDMJY8Z/lplUzPJwizhEXy6U7cDkUnAehXnYclnkYUq+nanbEBtOV+d1KZNbvOLfC8kRt3ThXH9SjsQvWTKdyqWXXQsyKUdQnx4M5geI9OChF05bxclO9+Q7/ELX3r8VZDVAQ/BlepYNSJYWWesiYa6CR/PlXlCh/LCxYDg=
+before_install:
+- npm install -g bower
+- bower install
+- git config --global user.name "${GIT_NAME}"
+- git config --global user.email "${GIT_EMAIL}"
+- openssl aes-256-cbc -K $encrypted_64cd943d900c_key -iv $encrypted_64cd943d900c_iv -in config/deploy_id_rsa_enc_travis -out config/deploy_id_rsa -d
+- openssl aes-256-cbc -K $encrypted_64cd943d900c_key -iv $encrypted_64cd943d900c_iv -in config/deploy_id_rsa_enc_travis -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
+- eval "$(ssh-agent)"
+- ssh-add
+script:
+- if [ $TRAVIS_BRANCH == 'dist' ] ; then
+    # Initialize a new git repo and push it to our server.
+    git init
+
+    git remote add deploy "root@ppmroadmap.com:/var/www/michael.ppmroadmap.com/production/current"
+
+    git add .
+    git commit -m "Travis CI deploy"
+    git push deploy
+  else
+    echo "Not deploying since this branch isn't dist."
+  fi
+branches:
+  only:
+    - dist
