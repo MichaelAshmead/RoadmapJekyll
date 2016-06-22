@@ -18,7 +18,6 @@ before_install:
 - ssh-add
 script:
 - if [ $TRAVIS_BRANCH == 'dist' ] ; then
-    # Initialize a new git repo and push it to our server.
     git init
 
     git remote add deploy "root@ppmroadmap.com:/var/www/michael.ppmroadmap.com/production/current"
