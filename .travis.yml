@@ -31,4 +31,4 @@ script:
   fi
 branches:
   only:
-    - dist
+  - dist
