@@ -1,6 +1,7 @@
 ---
 title: Roadmap Jekyll
 timezone: UTC
+include: [".travis.yml"]
 collections:
   posts:
     title: Posts
