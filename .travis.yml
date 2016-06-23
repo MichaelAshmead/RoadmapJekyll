@@ -14,7 +14,7 @@ script:
 - if [ $TRAVIS_BRANCH == 'dist' ] ; then
     git init;
     git remote add deploy "root@ppmroadmap.com:/var/www/michael.ppmroadmap.com/production/current";
-    git add .;
+    git add . --all;
     git commit -m "Travis CI deployed.";
     git push deploy dist;
   else
