@@ -9,6 +9,7 @@ before_install:
 - rm deploy-key.enc # Don't need it anymore
 - chmod 600 deploy-key
 - mv deploy-key ~/.ssh/id_rsa
+- echo -e "Host ppmroadmap.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 script:
 - if [ $TRAVIS_BRANCH == 'dist' ] ; then
     git init;
