@@ -1,7 +1,6 @@
 ---
 title: Roadmap Jekyll
 timezone: UTC
-include: [".travis.yml"]
 collections:
   posts:
     title: Posts
@@ -9,3 +8,5 @@ collections:
   uploads:
     title: Uploads
     output: true
+include:
+- ".travis.yml"
