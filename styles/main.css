@@ -293,7 +293,7 @@ a:hover, a:focus { color: #f16469; }
 @media (min-width: 47em) { .mh-br { float: left; position: relative; left: 50%; margin-bottom: 0; margin-left: -98.5px; } }
 .lt-ie9 .mh-br { float: left; position: relative; left: 50%; margin-bottom: 0; margin-left: -98.5px; }
 .mh-br, .mh-br ._br-lk { width: 197px; height: 51px; }
-.mh-br ._br-lk { background: url(../images/roadmap-logo.png) center center no-repeat; }
+.mh-br ._br-lk { background: url(../images/roadmap-logo.svg) center center no-repeat; }
 
 .mh-bn { padding: 24px 0; border-bottom: 6px solid #e6e5da; background-color: #fff; }
 
