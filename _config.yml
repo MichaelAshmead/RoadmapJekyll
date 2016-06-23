@@ -9,4 +9,4 @@ collections:
     title: Uploads
     output: true
 include:
-- [".travis.yml", "deploy-key.enc"]
+- ".travis.yml"
