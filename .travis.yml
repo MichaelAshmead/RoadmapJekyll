@@ -11,7 +11,8 @@ before_install:
 - mv deploy-key ~/.ssh/id_rsa
 script:
 - if [ $TRAVIS_BRANCH == 'dist' ] ; then
-    git init git remote add deploy "root@ppmroadmap.com:/var/www/michael.ppmroadmap.com/production/current"
+    git init
+    git remote add deploy "root@ppmroadmap.com:/var/www/michael.ppmroadmap.com/production/current"
     git add .
     git commit -m "Travis CI deployed."
     git push deploy else echo "I'm not deploying since this branch isn't dist."
